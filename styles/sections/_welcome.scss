@@ -1,0 +1,38 @@
+.welcome-section {
+
+    &__cards {
+        margin-top: 80px;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__card {
+
+        margin-right: 30px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+    
+            margin: 30px;
+            width: 325px;
+        }
+
+        &-icon {
+            margin-bottom: 10px;
+        }
+
+        &.blue {
+            background-color: var(--secondary-color-1);
+            color: var(--light-text-color);
+
+        }
+    }
+}

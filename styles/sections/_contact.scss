@@ -1,0 +1,63 @@
+.contact-section {
+    &__cards {
+
+        margin-top: 80px;
+        margin-bottom: 100px;
+    }
+
+    &__items {
+        display: flex;
+        justify-content: center;
+        gap: 0;
+
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        padding: 50px 40px;
+
+        &-icon {
+            margin-bottom: 15px;
+        }
+
+        &-text {
+            margin-bottom: 15px;
+
+            text-align: center;
+        }
+
+        &-title {
+            margin-bottom: 15px;
+        }
+
+        &.center-element {
+            padding: 80px 40px;
+
+            background-color: var(--dark-background-color, #252B42);
+            color: var(--light-text-color, #FFFFFF);
+        }
+
+
+    }
+
+    &__footer {
+
+        margin-left: 195px;
+        margin-right: 195px;
+
+        &-content {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 360px;
+    
+        }
+
+    }
+
+}

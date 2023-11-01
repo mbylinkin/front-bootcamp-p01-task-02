@@ -1,0 +1,71 @@
+.header {
+
+    background-image: url("../assets/images/cover.png");
+    background-size: cover;
+    &__inner {
+        margin-left: 60px;
+        margin-right: 60px;
+
+        display: flex;
+    }
+
+    &__title {
+        margin-top: 36px;
+        margin-bottom: 36px;
+        margin-right: 506px;
+        margin-left: 136px;
+    }
+
+    &__nav {
+        margin-top: 36px;
+        margin-bottom: 36px;
+
+        display: flex;
+        align-items: center;
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__item {
+        display: flex;
+        margin-right: 22px;
+    }
+
+    &__buttons {
+        display: flex;
+        align-items: center;
+
+    }
+
+    &__cards {
+        margin-left: 196px;
+        height: 680px;
+        display: flex;
+    }
+
+    &__card {
+        width: 510px;
+        
+        
+
+        &-title {
+            margin-top: 172px;
+        }
+
+        &-text {
+            margin-top: 36px;
+            margin-bottom: 36px;
+        }
+
+        &-buttons {
+            margin-bottom: 172px;
+            
+        }
+
+        &-image {
+            width: 744;
+        }
+    }
+}

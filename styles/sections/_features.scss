@@ -1,0 +1,36 @@
+.features-section {
+    &__cards {
+        margin-top: 80px;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        margin-right: 30px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+    
+            margin: 30px;
+            width: 232px;
+        }
+
+        &-title {
+            margin-bottom: 10px;
+        }
+    }
+
+}

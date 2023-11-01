@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Roboto&family=Work+Sans&display=swap');
+
+@import "reset.scss";
+@import "variables.scss";
+@import "fonts.scss";
+@import "ui.scss";
+@import "mixins.scss";
+
+@import "sections/common.scss";
+@import "sections/header.scss";
+@import "sections/welcome.scss";
+@import "sections/features.scss";
+@import "sections/service.scss";
+@import "sections/contact.scss";
+@import "sections/footer.scss";
+
+body {
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-base);
+    line-height: var(--line-height-base);
+}
+
+h3 {
+    font-family: var(--font-family-sm);
+    font-size: var(--font-size-title-sm);
+    font-weight: var(--font-weight-sm);
+    line-height: var(--line-height-sm);
+}
+
+
+h5 {
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-title-h5);
+    font-weight: var(--font-weight-h5);
+    line-height: var(--line-height-h5);
+}
+
+.section {
+    margin-left: 196px;
+    margin-right: 196px;
+}
+
+.section__header {
+    margin-bottom: 80px;
+}
+
+.text-align-left {
+    text-align: left;
+}

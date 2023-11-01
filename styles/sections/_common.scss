@@ -1,0 +1,25 @@
+.section {
+    &-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-top: 100px;
+
+        &__title {
+            // @extend .title_md;
+        }
+
+        &__text {
+            margin-top: 10px;
+            text-align: center;
+        }
+    
+    }
+
+}
